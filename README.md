@@ -12,6 +12,6 @@ Por poco dinero tendrás a tú disposición una impresora de escritorio profesio
 [Ir a Wiki](https://wiki.3despana.com/index.php?title=P3Steel_MGN_2019)
 
 ## Donde comprar los materiales o la impresora
-[3DEespana.com](https://3despana.com)
+[3DEspana.com](https://3despana.com)
 
 ## Videos
