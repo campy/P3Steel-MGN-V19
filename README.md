@@ -5,10 +5,15 @@ Proyecto Open-Source con licencia GPL-3.0
 
 ##  Introducción
 Diseñada desde 0 por [3DCampy](https://blog.3despana.com/sobre-mi/) y con un año de desarrollo tengo el gusto de presentaros mi proyecto de P3steel
+
 La evolución logica de nuestra querida P3steel, he cuidado hasta el ultimo detalle para que todo encaje a la perfección y la estetica sea lo mas limpia posible
+
 En la wiki podrás ver todos los cambios y mejoras que se van implementando
+
 La nueva P3steel 2019 está diseñada para los usuarios mas exigentes, el movimiento de todos los ejes es por guías lineales, lo que aporta una rigidez estructural y precisión extraordinaria.
-Con un año de desarrollo y pruebas la P3steel MGN 2019 es una plataforma mas que testada y probada, que ademas vamos mejorando día a día con pequeñas mejoras.
+
+Despues del desarrollo y muchas horas de pruebas la P3steel MGN 2019 es una plataforma mas que testada y probada, que ademas vamos mejorando día a día con pequeñas mejoras.
+
 Por poco dinero tendrás a tú disposición una impresora de escritorio profesional, robusta y duradera.
 
 ## Compatibilidades
