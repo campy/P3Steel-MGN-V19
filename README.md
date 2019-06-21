@@ -10,8 +10,8 @@ Usted puede Adaptar — remezclar, transformar y construir a partir del material
 NoComercial — Usted no puede hacer uso del material con propósitos comerciales
 
 Atribución — Usted debe dar crédito de manera adecuada, brindar un enlace a la licencia, e indicar si se han realizado cambios. Puede hacerlo en cualquier forma razonable, pero no de forma tal que sugiera que usted o su uso tienen el apoyo de la licenciante.
-
-![stack Overflow]  width=175 (https://wiki.3despana.com/images/5/5a/Cad_v19.png)
+<img align="top" width=175 src="https://wiki.3despana.com/images/5/5a/Cad_v19.png" />
+![stack Overflow](https://wiki.3despana.com/images/5/5a/Cad_v19.png)
 ![stack Overflow](https://wiki.3despana.com/images/9/92/P3steelmgn2019.jpg) 
 
 
