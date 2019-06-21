@@ -12,7 +12,7 @@ En la wiki podrás ver todos los cambios y mejoras que se van implementando
 
 La nueva P3steel 2019 está diseñada para los usuarios mas exigentes, el movimiento de todos los ejes es por guías lineales, lo que aporta una rigidez estructural y precisión extraordinaria.
 
-Despues del desarrollo y muchas horas de pruebas la P3steel MGN 2019 es una plataforma mas que testada y probada, que ademas vamos mejorando día a día con pequeñas mejoras.
+Despues del desarrollo y muchas horas de pruebas la P3steel MGN V19 es una plataforma mas que testada y probada, que ademas vamos mejorando día a día con pequeñas mejoras.
 
 Por poco dinero tendrás a tú disposición una impresora de escritorio profesional, robusta y duradera.
 
