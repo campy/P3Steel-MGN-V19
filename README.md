@@ -16,7 +16,7 @@ Atribución — Usted debe dar crédito de manera adecuada, brindar un enlace a 
 
 
 ##  Introducción
-Diseñada desde 0 por [3DCampy](https://blog.3despana.com/sobre-mi/) y con un año de desarrollo tengo el gusto de presentaros mi proyecto de P3steel
+Diseñada desde cero por [3DCampy](https://blog.3despana.com/sobre-mi/) y con un año de desarrollo tengo el gusto de presentaros mi proyecto de P3steel
 
 La evolución logica de nuestra querida P3steel, he cuidado hasta el ultimo detalle para que todo encaje a la perfección y la estetica sea lo mas limpia posible
 
