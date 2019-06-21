@@ -1,0 +1,12 @@
+// Homing speeds (mm/m)
+
+#define HOMING_FEEDRATE_XY (90*60)
+
+#define HOMING_FEEDRATE_Z  (8*60)
+
+#define XY_PROBE_SPEED 7000
+
+#define DEFAULT_MAX_FEEDRATE          { 100, 100, 10, 40 }
+
+----------- OK ------------------------------
+

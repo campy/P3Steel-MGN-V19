@@ -1,0 +1,72 @@
+*****************************************************************
+      SolidWorks Corporation - Informe de estado del procesador de IGES
+*****************************************************************
+=================================================================
+Información general
+=================================================================
+Enviando I.D. de producto de sistema  : Noname
+Recibiendo I.D. de producto de sistema: Noname
+Nombre de archivo                    : Konstruktion24.igs
+Enviando sistema               : Spatial Corp.
+Versión de preprocesador         : 3D InterOp ACIS/IGES
+Fecha de creación del archivo           : 20161122.210117
+Fecha de creación del modelo          : 20161122.210117
+Unidades                        : MM
+Escala espacial del modelo            : 1
+Autor                       : Noname
+Organización                 : Noname
+
+
+=================================================================
+Información de procesamiento de entidades
+=================================================================
+
+
+=================================================================
+Análisis de precisión del archivo de IGES:
+=================================================================
+  Número de dígitos significativos más frecuente:               5
+  Número de dígitos significativos más alto:                     14
+  Número de dígitos significativos promedio:                4.67786
+  Distancia máxima hasta el origen:                          9.83578
+  Distancia mínima hasta el origen:                          0.53566
+  Número de dígitos significativos efectivo:              13.9526
+
+
+=================================================================
+Resumen de entidades
+=================================================================
+-----------------------------------------------------------------
+Nombre de tipo                                         Número convertido
+---- ----                                         ----- ---------
+100  Arc                                            108       108
+110  Line                                           605       605
+116  Point                                          278       278
+123  Direction                                      556       556
+124  Transformation matrix                          111       111
+186  Manifold Solid B-rep Object                     12        12
+190  Plane surface entity                           224       224
+192  Right circular cylindrical surface              54        54
+308  Subfigure definition                             7         7
+314  Color definition                               264       264
+408  Singular subfigure instance                      7         7
+502  Vertex list                                     12        12
+504  Edge entity                                     12        12
+508  Loop entity                                    303       303
+510  Face entity                                    278       278
+514  Shell entity                                    12        12
+_________________________________________________________________
+
+
+=================================================================
+Resumen de resultados
+=================================================================
+Tipo de operación de SolidWorks                Número
+-----------------------                -----
+Operaciones sólidas12
+Operaciones de superficie0
+Operaciones de curvas/croquis0
+--------------------------------------------
+Hora de comienzo: jueves, mayo 16, 2019 17:06:35
+Hora de finalización: jueves, mayo 16, 2019 17:06:37
+Tiempo de procesamiento: 0 days, 00 hours, 00 mins, 02 secs
