@@ -4,8 +4,11 @@
 Proyecto Open-Source con licencia CC BY-NC (No comercial)
 
 Usted puede Compartir — copiar y redistribuir el material en cualquier medio o formato
+
 Usted puede Adaptar — remezclar, transformar y construir a partir del material
+
 NoComercial — Usted no puede hacer uso del material con propósitos comerciales
+
 Atribución — Usted debe dar crédito de manera adecuada, brindar un enlace a la licencia, e indicar si se han realizado cambios. Puede hacerlo en cualquier forma razonable, pero no de forma tal que sugiera que usted o su uso tienen el apoyo de la licenciante.
 
 ##  Introducción
