@@ -12,6 +12,8 @@ NoComercial — Usted no puede hacer uso del material con propósitos comerciale
 Atribución — Usted debe dar crédito de manera adecuada, brindar un enlace a la licencia, e indicar si se han realizado cambios. Puede hacerlo en cualquier forma razonable, pero no de forma tal que sugiera que usted o su uso tienen el apoyo de la licenciante.
 
 ![stack Overflow](https://wiki.3despana.com/images/5/5a/Cad_v19.png)
+![stack Overflow](https://wiki.3despana.com/images/9/92/P3steelmgn2019.jpg)
+
 
 ##  Introducción
 Diseñada desde 0 por [3DCampy](https://blog.3despana.com/sobre-mi/) y con un año de desarrollo tengo el gusto de presentaros mi proyecto de P3steel
