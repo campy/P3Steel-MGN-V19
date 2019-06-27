@@ -13,7 +13,6 @@ M83                            ; ...but relative extruder moves
 ; Network
 M550 PP3Steel                  ; Set machine name
 M552 S1                        ; Enable network
-M587 S"ASUS" P"nelakyra1234"   ; Configure access point. You can delete this line once connected
 M586 P0 S1                     ; Enable HTTP
 M586 P1 S0                     ; Disable FTP
 M586 P2 S0                     ; Disable Telnet

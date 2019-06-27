@@ -24,8 +24,8 @@
 
 1-Soporte cadeneta a base 3x12
 
-Sujeccion X a las guias 3x16
-Sujeccion Y a las guias 3x10
+12- Sujeccion X a las guias 3x16
+14- Sujeccion Y a las guias 3x10
 
 2- Final de carrera 3x10
 
@@ -63,14 +63,14 @@ Correa Y 910mm
 8- Raspy y skr a soporte electronica 3x6
 2- Soporte endstop Y 3x10
 1- Soporte bobina filamento 3x12
-2-Sensor de filamento a soporte 3x20
+2-Sensor de filamento a soporte 3x18
 2-Ventilador electronica a tapa 3x18 avellanado
 LCD RBG 2- 3x6 2- 3x16
 
 ********* TITAN ***********
 1- Anclaje titan no aero a motor 3x10
-3- Anclaje aero a motor 3X35 + 4 Arandelas + 1 3x25 corto (3x40 con soporte cadeneta)
-2- Ventilador aero 3x12 (con protector 3x16)
+3- Anclaje aero a motor 3X35 + 4 Arandelas + 1 3x30 corto (Todos con arandela)
+2- Ventilador aero 3x16 Avellanados para filtro
 2- Ventilador Blower a soporte vent capa 3x20
 2- Soporte cadeneta a Vent capa 3x8
 Sensor inductivo 24mm desde salida del cable a X carriage
@@ -99,7 +99,7 @@ Tubo PTFE Titan 23.50mm (Barrel TC4)
 18x Eslabon 15 (Eje X)(16 Tapas L + 2 Tapa fina)
 
 --- BMG ----
-18x Eslabon 15 (Eje X)(16 Tapas L + 2 Tapa fina) + Eslabon bloqueado
+19x Eslabon 15 (Eje X)(16 Tapas L + 2 Tapa fina) + Eslabon bloqueado
 23X P3Steel XL (Eje X) + Eslabon bloqueado
 
 
@@ -110,10 +110,10 @@ Tubo PTFE Titan 23.50mm (Barrel TC4)
 ******** DRIVER ********
 
 TMC 2208
-X - 760mv
+X - 750mv
 Y - 800mv (0.9º - 1300mv)
-Z - 900mv
-E - 760mv
+Z - 800mv
+E - 750mv
 
 ******* SENSOR INDUCTIVO *****
 5V - MARRON
