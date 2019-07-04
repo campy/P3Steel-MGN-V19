@@ -31,7 +31,7 @@
 
 
 ****** EJE X ******
-1- Polea X 3x25
+1- Polea X 5x30
 4- Motor X 3x10 + Arandelas
 4- X Carriage a Guia 3X8
 8- Xmotor - Xidler a Guia Z 3x8
@@ -42,7 +42,7 @@
 
 6-Sop motor Z a estructura 3X12
 12-Sujeccion Guia Z a estructura 3x10
-6-Tuerca husillos X 3x12
+6-Tuerca husillos X 3x12 + Tuerca autoblocante
 8- Motores Z  3x8
 
 ***** CORREAS ******
@@ -66,6 +66,11 @@ Correa Y 910mm
 2-Sensor de filamento a soporte 3x18
 2-Ventilador electronica a tapa 3x18 avellanado
 LCD RBG 2- 3x6 2- 3x16
+1- Tapa electronica 3x50 
+
+******* INSERTOS *******
+20 Insertos M3
+1 Inserto M6
 
 ********* TITAN ***********
 1- Anclaje titan no aero a motor 3x10
