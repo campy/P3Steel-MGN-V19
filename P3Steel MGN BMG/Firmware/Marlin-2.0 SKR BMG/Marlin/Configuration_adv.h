@@ -1549,7 +1549,7 @@
   #define INTERPOLATE       true  // Interpolate X/Y/Z_MICROSTEPS to 256
 
   #if AXIS_IS_TMC(X)
-    #define X_CURRENT     700  // (mA) RMS current. Multiply by 1.414 for peak current.
+    #define X_CURRENT     750  // (mA) RMS current. Multiply by 1.414 for peak current.
     #define X_MICROSTEPS   16  // 0..256
     #define X_RSENSE     0.11
   #endif
@@ -1561,7 +1561,7 @@
   #endif
 
   #if AXIS_IS_TMC(Y)
-    #define Y_CURRENT     800
+    #define Y_CURRENT     900
     #define Y_MICROSTEPS   16
     #define Y_RSENSE     0.11
   #endif
@@ -1591,7 +1591,7 @@
   #endif
 
   #if AXIS_IS_TMC(E0)
-    #define E0_CURRENT    750
+    #define E0_CURRENT    720
     #define E0_MICROSTEPS  16
     #define E0_RSENSE    0.11
   #endif
@@ -1668,8 +1668,8 @@
    * Use Trinamic's ultra quiet stepping mode.
    * When disabled, Marlin will use spreadCycle stepping mode.
    */
-  #define STEALTHCHOP_XY
-  #define STEALTHCHOP_Z
+  //#define STEALTHCHOP_XY
+  //#define STEALTHCHOP_Z
   //#define STEALTHCHOP_E
 
   /**
