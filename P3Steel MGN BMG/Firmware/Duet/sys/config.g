@@ -11,7 +11,7 @@ G90                            ; Send absolute coordinates...
 M83                            ; ...but relative extruder moves
 
 ; Network
-M550 PP3Steel V19                 ; Set machine name
+M550 PP3Steel                  ; Set machine name
 M552 S1                        ; Enable network
 M586 P0 S1                     ; Enable HTTP
 M586 P1 S0                     ; Disable FTP
@@ -21,13 +21,13 @@ M586 P2 S0                     ; Disable Telnet
 M569 P0 S0                     ; Drive 0 goes forwards
 M569 P1 S0                     ; Drive 1 goes forwards
 M569 P2 S0                     ; Drive 2 goes forwards
-M569 P3 S1                     ; Drive 3 goes forwards
+M569 P3 S0                     ; Drive 3 goes forwards
 M350 X16 Y16 Z16 E16 I1        ; Configure microstepping with interpolation
-M92 X100 Y100 Z400 E418       ; Set steps per mm
+M92 X100 Y200 Z400 E418       ; Set steps per mm
 M566 X480 Y480 Z12 E500        ; Set maximum instantaneous speed changes (mm/min)
-M203 X6000 Y6000 Z900 E2400    ; Set maximum speeds (mm/min)
-M201 X1500 Y1500 Z250 E9000     ; Set accelerations (mm/s^2)
-M906 X700 Y850 Z650 E620 I30   ; Set motor currents (mA) and motor idle factor in per cent
+M203 X6000 Y6000 Z900 E1200    ; Set maximum speeds (mm/min)
+M201 X1200 Y1300 Z250 E9000     ; Set accelerations (mm/s^2)
+M906 X700 Y1200 Z650 E620 I30   ; Set motor currents (mA) and motor idle factor in per cent
 M84 S30                        ; Set idle timeout
 
 ; Axis Limits
@@ -40,8 +40,8 @@ M574 X1 Y1 S0                  ; Set active low endstops
 ; Z-Probe
 M574 Z1 S2                     ; Set endstops controlled by probe
 M558 P5 I1 H5 F300 T6000          ; Set Z probe type to ultrasonic and the dive height + speeds
-G31 P500 X0 Y-27 Z1.37        ; Set Z probe trigger value, offset and trigger height
-M557 X10:210 Y10:280 S20       ; Define mesh grid
+G31 P500 X3 Y-23 Z0.85        ; Set Z probe trigger value, offset and trigger height
+M557 X10:210 Y10:290 S20       ; Define mesh grid
 
 ; Heaters
 M307 H0 B0 S1.00               ; Disable bang-bang mode for the bed heater and set PWM limit
@@ -62,10 +62,7 @@ M563 P0 D0 H1                  ; Define tool 0
 G10 P0 X0 Y0 Z0                ; Set tool 0 axis offsets
 G10 P0 R0 S0                   ; Set initial tool 0 active and standby temperatures to 0C
 
-M591 D0 P2 C2 S1	; Filament Sensor (Extruder0)
-
-;Resume after power cut
-M911 S21.0 R23.0 P"M913 X0 Y0 G91 M83 G1 Z3 E-5 F1000"            
+M911 S21.0 R23.0 P"M913 X0 Y0 G91 M83 G1 Z3 E-5 F1000"            ;Resume after power cut
 M912 P0 S-17                   ;Cpu temp correction
 M501                           ; Save eprom
 
