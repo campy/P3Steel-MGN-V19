@@ -23,11 +23,11 @@ M569 P1 S0                     ; Drive 1 goes forwards
 M569 P2 S0                     ; Drive 2 goes forwards
 M569 P3 S0                     ; Drive 3 goes forwards
 M350 X16 Y16 Z16 E16 I1        ; Configure microstepping with interpolation
-M92 X100 Y200 Z400 E418       ; Set steps per mm
+M92 X100 Y200 Z400 E418        ; Set steps per mm
 M566 X480 Y480 Z12 E500        ; Set maximum instantaneous speed changes (mm/min)
-M203 X6000 Y6000 Z900 E1200    ; Set maximum speeds (mm/min)
-M201 X1200 Y1300 Z250 E9000     ; Set accelerations (mm/s^2)
-M906 X700 Y1200 Z650 E620 I30   ; Set motor currents (mA) and motor idle factor in per cent
+M203 X7000 Y7000 Z900 E3000    ; Set maximum speeds (mm/min)
+M201 X1800 Y1800 Z500 E9000    ; Set accelerations (mm/s^2)
+M906 X750 Y920 Z750 E710 I30   ; Set motor currents (mA) and motor idle factor in per cent
 M84 S30                        ; Set idle timeout
 
 ; Axis Limits
@@ -40,7 +40,7 @@ M574 X1 Y1 S0                  ; Set active low endstops
 ; Z-Probe
 M574 Z1 S2                     ; Set endstops controlled by probe
 M558 P5 I1 H5 F300 T6000          ; Set Z probe type to ultrasonic and the dive height + speeds
-G31 P500 X3 Y-23 Z0.85        ; Set Z probe trigger value, offset and trigger height
+G31 P500 X3 Y-23 Z1.40        ; Set Z probe trigger value, offset and trigger height
 M557 X10:210 Y10:290 S20       ; Define mesh grid
 
 ; Heaters
@@ -61,6 +61,10 @@ M106 P2 S1 I0 F500 H1 T45      ; Set fan 2 value, PWM signal inversion and frequ
 M563 P0 D0 H1                  ; Define tool 0
 G10 P0 X0 Y0 Z0                ; Set tool 0 axis offsets
 G10 P0 R0 S0                   ; Set initial tool 0 active and standby temperatures to 0C
+
+
+;Filament sensor
+M591 D0 P2 C3 S1
 
 M911 S21.0 R23.0 P"M913 X0 Y0 G91 M83 G1 Z3 E-5 F1000"            ;Resume after power cut
 M912 P0 S-17                   ;Cpu temp correction
